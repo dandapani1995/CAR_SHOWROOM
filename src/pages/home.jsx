@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
       <h1>Home page</h1>
-      <div className="container">
+      <div className="container-home">
         <p>Welcome!!</p>
         <img href='#' atl="images"src={image}></img>
         <div/>

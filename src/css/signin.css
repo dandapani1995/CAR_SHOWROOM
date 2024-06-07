@@ -25,15 +25,7 @@ input[type=text],input[type=password], select {
     width: 50%;
     margin: auto;
     display: flexbox;
-  }
-
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Adjust as needed */
-  }
-  
+  }  
   .center-button {
     padding: 20px;
     font-size: 16px;
