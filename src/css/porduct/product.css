@@ -48,10 +48,11 @@
     margin: auto; 
   } */
   .product_image_container{
-    width: 40%;
+    width: 550px;
     margin: auto;
+    padding: 20px;
+ }
 
-  }
   .product_details{
     max-width: 500px;
     margin: auto; 
