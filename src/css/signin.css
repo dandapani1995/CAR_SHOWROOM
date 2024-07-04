@@ -7,7 +7,11 @@ input[type=text],input[type=password], select {
     border-radius: 4px;
     box-sizing: border-box;
   }
-  
+  body{
+    background-image: url('../assets/village.jpg');
+    color: #2789f3;
+    background-repeat: no-repeat;
+  }
   button[type=submit] {
     background-color: #4CAF50;
     color: white;
@@ -21,10 +25,10 @@ input[type=text],input[type=password], select {
     background-color: #45a049;
   }
   .Login_form{
-    padding: 30px;
-    width: 50%;
+    padding: 0px;
+    width: 30vw;
     margin: auto;
-    display: flexbox;
+    color: #1e1a1a;
   }  
   .center-button {
     padding: 20px;
@@ -35,3 +39,24 @@ input[type=text],input[type=password], select {
     display: flex;
     font-size: 16px;
   }
+  .custom-link {
+    font-size: 18px;
+    color: rgb(2, 20, 20);
+    font-family: emoji;
+}
+a.active {
+  color: blue;
+  font-style: italic;
+}
+.radio-label{
+  padding: 10px;
+}
+#Dateofbirth-label {
+  width: 150px;
+  text-align: right;
+}
+.react-datepicker-wrapper {
+  display: flex !important;
+  padding: 0;
+  border: 0;
+}

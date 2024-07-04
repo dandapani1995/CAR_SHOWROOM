@@ -13,7 +13,7 @@ const Home = () => {
         <p>Welcome!!</p>
         <img href='#' atl="images"src={image}></img>
         <div/>
-        <button onClick={()=>navigate('/signin')}> Enter</button>
+        <button className='button-cls' onClick={()=>navigate('/signin')}> Enter</button>
         <span></span>
         <div/>
 

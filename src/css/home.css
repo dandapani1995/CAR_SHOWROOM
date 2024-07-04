@@ -3,6 +3,7 @@ h1{
     margin: auto; 
     padding: 20px;
     text-align: center;
+    font-size: 40px;
   }
   .container-home{
     /* background-image: url('../assets/village.jpg'); */
@@ -13,7 +14,7 @@ h1{
     border-color: rebeccapurple;
     height: 600px;
   }
-  .container-home button{
+  .container-home,.button-cls{
     background-color: #04AA6D; /* Green */
     border: none;
     color: white;
@@ -29,3 +30,4 @@ h1{
     padding: 20px;
   
   }
+  
